@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form_toggle {
+  transform: rotate(-90deg);
+  width: 64px;
+  overflow: hidden;
+  height: 20px;
+  display: inline-flex;
+  justify-content: space-around;
+}
+.form_toggle-item {
+  float: left;
+  /* display: inline-block; */
+}
+.form_toggle-item input[type="radio"] {
+  display: none;
+}
+.form_toggle-item label {
+  font-family: "Gilroy-Bold";
+  font-size: 16px;
+  color: #828282;
+  display: inline-block;
+  text-align: end;
+  /* padding: 0px 15px;    */
+}
+
+.label-fid-1 .label-fid-2 {
+  font-family: "Gilroy-Bold";
+  font-size: 12px;
+  /* line-height: 20px; */
+
+  color: #828282;
+}
+
+#go-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  cursor: pointer;
+  display: flex;
+  width: 42px;
+  height: 42px;
+  border-radius: 25px;
+}
+/* Checked */
+
+.form_toggle .item-1 input[type="radio"]:checked + label {
+  font-family: "Gilroy-Bold";
+  font-size: 16px;
+  color: #070707;
+}
+.form_toggle .item-2 input[type="radio"]:checked + label {
+  font-family: "Gilroy-Bold";
+  font-size: 16px;
+  color: #070707;
+}
+
+.section {
+  max-width: 955px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.first {
+  height: 768px;
+}
+
+.sub-header-text {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  /* Black */
+
+  color: #070707;
+}
+.nav {
+  height: 88px;
+  border-bottom: 1px solid #828282;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  line-height: 22px;
+
+  /* Black */
+
+  color: #070707;
+  text-decoration: none;
+}
+
+.header {
+  display: block;
+  /* height: 679px; */
+  /* height: auto; */
+}
+
+.main-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0 40px 0;
+}
+
+.name {
+  font-family: "Gilroy-Bold";
+  font-size: 47.3392px;
+  line-height: 59px;
+
+  /* Black */
+
+  color: #070707;
+}
+
+.about {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+
+  /* Black */
+
+  color: #070707;
+}
+
+/* .main-img {
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  background-image: url(/img/denis_novic_photo.png);
+  padding-bottom: 104px;
+  background-repeat: no-repeat;
+} */
+
+.denis-photo {
+  width: 100%;
+  height: auto;
+}
+
+.denis-photo2 {
+  display: none;
+}
+
+.ab-me {
+  display: flex;
+  height: 506px;
+  background-color: #f6f6f6;
+  width: 100%;
+  align-items: center;
+}
+.header-text {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  padding-bottom: 17px;
+
+  /* Black */
+
+  color: #070707;
+}
+
+.ab-me-text {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  /* Black */
+  color: #070707;
+}
+.about-text {
+  padding-bottom: 69px;
+}
+.skills-text {
+  padding-top: 69px;
+}
+
+.skills .sub-header-text {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  /* Black */
+  margin-bottom: 87px;
+  color: #070707;
+  font-weight: normal;
+}
+
+.skills {
+  height: 610px;
+}
+
+.card-section {
+  display: flex;
+  justify-content: space-between;
+  height: 206px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 166px;
+  height: 206px;
+  justify-content: space-between;
+}
+
+.card-img {
+  margin: 0 auto;
+  width: 89px;
+  height: 88px;
+}
+
+.card-text {
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #828282;
+}
+
+.raiting {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partfolio {
+  height: auto;
+  background-color: #f6f6f6;
+}
+
+.partfolio .section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.partfolio .sub-header-text {
+  text-align: center;
+  margin-top: 69px;
+  margin-bottom: 83px;
+}
+.partfolio .header-text {
+  padding-top: 112px;
+  padding-bottom: 47px;
+}
+
+.partfolio img {
+  padding-bottom: 45px;
+  width: 100%;
+  height: auto;
+}
+
+.partfolio a {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #070707;
+  padding-bottom: 100px;
+}
+
+.contacts {
+  height: 622px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contacts-text {
+  padding-top: 114px;
+  padding-bottom: 20px;
+}
+
+.contacts .sub-header-text {
+  padding-bottom: 29px;
+}
+
+.send-message {
+  background-color: black;
+  width: 180px;
+  height: 42px;
+  border-radius: 25px;
+  color: white;
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 89px;
+  border: none;
+}
+
+.socials {
+  width: 342px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-top: 45px;
+}
+
+@media (max-width: 768px) {
+  .skills {
+    height: 1421px;
+  }
+  .card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  .card {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  .section {
+    padding: 0 29px 0 29px;
+  }
+  .first {
+    height: 900px;
+  }
+  .nav {
+    display: none;
+  }
+  .denis-photo {
+    display: none;
+  }
+  .form_toggle {
+    display: none;
+  }
+  .denis-photo2 {
+    display: block;
+    height: auto;
+    width: 100%;
+    background-repeat: space;
+    padding-bottom: 83px;
+  }
+  .name {
+    padding-bottom: 23px;
+  }
+  .main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 375px) {
+  .first {
+    height: 836px;
+  }
+}
