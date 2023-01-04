@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet" />
+    <title>Denis Novik UI|UX designer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="./go_top.js"></script>
+  </head>
+  <body>
+    <div class="content" id="home">
+      <header class="header">
+        <nav class="nav">
+          <a class="header-nav-text" href="#home">Home</a>
+          <a class="header-nav-text" href="#about-me">About me</a>
+          <a class="header-nav-text" href="#skills">Skills</a>
+          <a class="header-nav-text" href="#exapmles">Portfolio</a>
+          <a class="header-nav-text" href="#contacts">Contacts</a>
+        </nav>
+      </header>
+
+      <section class="hi">
+        <div class="main-info">
+          <h2 class="name">
+            Denis<br />
+            Novik
+          </h2>
+
+          <div class="age-div">
+            <h2 class="age">
+              UX | UI designer<br />
+              24 years old, Minsk
+            </h2>
+          </div>
+
+          <div class="form_toggle">
+            <div class="form_toggle-item item-1">
+              <input id="fid-1" type="radio" name="radio" value="off" checked />
+              <label for="fid-1" class="label-fid-1">RU</label>
+            </div>
+            <hr
+              style="
+                border: none;
+                background-color: #070707;
+                width: 3px;
+                height: 100%;
+                margin: 0px;
+                padding: 0px;
+                text-align: center;
+              "
+            />
+            <div class="form_toggle-item item-2">
+              <input id="fid-2" type="radio" name="radio" value="on" />
+              <label for="fid-2" class="label-fid-2">ENG</label>
+            </div>
+          </div>
+        </div>
+
+        <img src="" alt="denchik/" class="denis-photo main-image" />
+      </section>
+    </div>
+
+    <section class="about">
+      <div class="content cnt-about">
+        <h2 class="about-me">About me</h2>
+        <br />
+        <br />
+        <p class="about-me-text">
+          Hi, I'm Denis – UX/UI designer from Minsk. <br />
+          I'm interested in design and everything connected with it.
+          <br />
+          <br />
+          I'm studying at courses "Web and mobile design <br />
+          interfaces" in IT-Academy.
+          <br />
+          <br />
+          Ready to implement excellent projects<br />
+          with wonderful people.
+        </p>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="skill">Skills</h2>
+      <p class="skill-text">I work in such programs as</p>
+
+      <div class="cards-section">
+        <div class="card card1">
+          <img src="./styles/PS.svg" alt="PS" class="card-image" />
+          <p class="card-text">Adobe<br />Photoshop</p>
+          <div class="stars">
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_noactiv.svg" alt="star" />
+          </div>
+        </div>
+
+        <div class="card card2">
+          <img src="./styles/AI.svg" alt="AI" class="card-image" />
+          <p class="card-text">Adobe<br />Illustrator</p>
+          <div class="stars">
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_noactiv.svg" alt="star" />
+            <img src="./styles/star_noactiv.svg" alt="star" />
+          </div>
+        </div>
+
+        <div class="card card3">
+          <img src="./styles/AE.svg" alt="AE" class="card-image" />
+          <p class="card-text">Adobe<br />After Effects</p>
+          <div class="stars">
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_noactiv.svg" alt="star" />
+            <img src="./styles/star_noactiv.svg" alt="star" />
+          </div>
+        </div>
+
+        <div class="card card4">
+          <img src="./styles/Figma.svg" alt="Figma" class="card-image" />
+          <p class="card-text">Figma</p>
+          <div class="stars">
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_activ.svg" alt="star" />
+            <img src="./styles/star_noactiv.svg" alt="star" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="examples" id="exapmles">
+      <h2 class="portfolio">Portfolio</h2>
+      <img src="./styles/online_fasion_store.png" alt="" class="ex-img" />
+      <a href="http://google.com" class="ex-text" target="_blank"
+        >Online fashion store - Homepage</a
+      >
+      <img src="./styles/reebok_web.png" alt="" class="ex-img" />
+      <a href="http://google.com" class="ex-text" target="_blank"
+        >Reebok Store - Concept</a
+      >
+      <img src="./styles/braun_landing_page.png" alt="" class="ex-img" />
+      <a href="http://google.com" class="ex-text" target="_blank"
+        >Braun Landing Page - Concept</a
+      >
+    </section>
+
+    <footer class="footer" id="contacts">
+      <div class="contacts">
+        <h2 class="contact-text">Contacts</h2>
+        <br /><br />
+        <p class="contact-p">
+          Want to know more or just chat?<br />You are welcome!
+        </p>
+        <br /><br />
+        <button class="contact-button">Send message</button>
+        <br /><br />
+        <div class="socials">
+          <a href="https://www.linkedin.com" target="_blank"
+            ><img src="./styles/in_png.svg" alt="in" class=""
+          /></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><img src="./styles/instagram_png.svg" alt="inst"
+          /></a>
+          <a href="https://www.behance.net" target="_blank"
+            ><img src="./styles/behance.svg" alt="behance"
+          /></a>
+          <a href="https://dribbble.com" target="_blank"
+            ><img src="./styles/surface1 7.svg" alt="dribble"
+          /></a>
+        </div>
+        <br /><br />
+        <p class="footer-text">
+          Like me on<br />LinkedIn, Instagram, Behance, Dribble
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
