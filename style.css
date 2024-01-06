@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .form_toggle {
   transform: rotate(-90deg);
   width: 64px;
@@ -273,6 +277,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  z-index: 1;
 }
 
 .contacts-text {
@@ -312,6 +317,32 @@
   text-align: center;
   color: #828282;
   margin-top: 45px;
+}
+
+.call-back-form {
+  position: absolute;
+  background-color: white;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.form-wrapper {
+  top: -1px;
+  z-index: 9999999;
+  position: sticky;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 40%);
+}
+
+body {
+  overflow: none;
 }
 
 @media (max-width: 768px) {
