@@ -62,21 +62,3 @@ submitFormButton.addEventListener("click", (event) => {
 
   closeForm();
 });
-
-const submitForm = () => {};
-
-// function emailValidation(email) {
-//   let emailAsArray = email.split("");
-
-//   console.log(emailAsArray);
-
-//   console.log(emailAsArray.indexOf("@"));
-
-//   if (
-//     emailAsArray.includes("@") &&
-//     emailAsArray.includes(".") &&
-//     emailAsArray.indexOf("@") < emailAsArray.indexOf(".")
-//   ) {
-//     return;
-//   } else return "Введите корректный email";
-// }
